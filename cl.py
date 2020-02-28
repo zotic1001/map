@@ -56,7 +56,7 @@ class Map_window(QMainWindow, Ui_MainWindow):
             response = requests.get(map_api_server, params=map_params)
             self.im = Image.open(BytesIO(response.content))
             self.im.save('map.png')
-            self.im.resize((300, 300))
+            self.im.resize((500, 500))
             self.pixmap = QPixmap('map.png')
             self.label_2.setPixmap(self.pixmap)
         except Exception:

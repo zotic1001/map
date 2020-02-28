@@ -21,7 +21,7 @@ class Ui_MainWindow(object):
         self.label.setText("")
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(130, 90, 301, 371))
+        self.label_2.setGeometry(QtCore.QRect(70, 70, 500, 500))
         self.label_2.setObjectName("label_2")
         self.verticalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
         self.verticalLayoutWidget.setGeometry(QtCore.QRect(470, 60, 131, 141))
